@@ -1,0 +1,27 @@
+.header{
+   max-width: 100%;
+   background-color:#FFFFFF;
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   padding: 14px 101px;
+   align-items: center;
+}
+
+.categories a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 16px;
+}
+
+.cart{
+   display: flex;
+   align-items: center; 
+}
+
+select{
+    border: none;
+} 
+select:active{
+    border: none;
+}
