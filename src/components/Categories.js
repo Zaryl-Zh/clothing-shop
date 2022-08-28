@@ -11,37 +11,37 @@ export default class Categories extends Component {
         <div className={classes.items}>
           <ul>
             <li>
-              <img src={Item} alt="clothes" />
+              <img className={classes.img} src={Item} alt="clothes" />
               <img src={Icon} alt="cart-icon" className={classes.icon}/>
               <p className={classes.name}>Apollo Running Short</p>
               <p className={classes.price}>$50.00</p>
             </li>
             <li>
-              <img src={Item} alt="clothes" />
+              <img className={classes.img} src={Item} alt="clothes" />
               <img src={Icon} alt="cart-icon" className={classes.icon}/>
               <p className={classes.name}>Apollo Running Short</p>
               <p className={classes.price}>$50.00</p>
             </li>
             <li>
-              <img src={Item} alt="clothes" />
+              <img className={classes.img} src={Item} alt="clothes" />
               <img src={Icon} alt="cart-icon" className={classes.icon}/>
               <p className={classes.name}>Apollo Running Short</p>
               <p className={classes.price}>$50.00</p>
             </li>
             <li>
-              <img src={Item} alt="clothes" />
+              <img className={classes.img} src={Item} alt="clothes" />
               <img src={Icon} alt="cart-icon" className={classes.icon}/>
               <p className={classes.name}>Apollo Running Short</p>
               <p className={classes.price}>$50.00</p>
             </li>
             <li>
-              <img src={Item} alt="clothes" />
+              <img className={classes.img} src={Item} alt="clothes" />
               <img src={Icon} alt="cart-icon" className={classes.icon}/>
               <p className={classes.name}>Apollo Running Short</p>
               <p className={classes.price}>$50.00</p>
             </li>
             <li>
-              <img src={Item} alt="clothes" />
+              <img className={classes.img} src={Item} alt="clothes" />
               <img src={Icon} alt="cart-icon" className={classes.icon}/>
               <p className={classes.name}>Apollo Running Short</p>
               <p className={classes.price}>$50.00</p>
