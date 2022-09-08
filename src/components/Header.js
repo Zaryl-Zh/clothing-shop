@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classes from './Header.module.css';
 import Logo from '../assets/a-logo.svg';
-import Cart from '../assets/Empty Cart.svg'
+import Cart from '../assets/Empty Cart.svg';
 
 export default class Header extends Component {
   render = () => (

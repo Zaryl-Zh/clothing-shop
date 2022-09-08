@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classes from './Categories.module.css';
 import Item from '../assets/Image.svg';
-import Icon from '../assets/Circle Icon.svg'
+import Icon from '../assets/Circle Icon.svg';
 
 export default class Categories extends Component {
   render = () => (
