@@ -1,0 +1,154 @@
+.cart {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+.cartTitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px; 
+    color: #1D1F22;
+    width: 84px;
+    height: 40px;
+    margin-bottom: 55px;
+}
+.line{
+    width: 1240px;
+    height: 1px;
+    background: #E5E5E5;
+}
+
+.cartItem {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.brandName{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    margin-top: 0;
+}
+
+.brandName span{
+    font-weight: 400; 
+    display: block;
+    margin-top: 16px;
+  
+}
+.size{
+    width: 276px;
+    height: 70px;
+}
+.size h2{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1D1F22;
+    margin: 0 0 8px 0;
+}
+
+.size button{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #1D1F22;
+    width: 63px;
+    height: 45px;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid #1D1F22;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.size button:not(:last-child){
+    margin-right: 8px;
+}
+.color{
+    margin-top: 24px;
+}
+.color h2{
+    color: #1D1F22;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0 0 8px 0;
+
+}
+
+.color button{
+    width: 36px;
+    height: 36px;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+
+}
+
+.color button:not(:last-child){
+    margin-right: 8px;
+}
+
+.price{
+    color: #1D1F22;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.price h2 {
+    font-family: 'Raleway';
+    font-size: 24px;
+    width: 86px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.amountInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 269px;
+   
+}
+.amountBtn {
+    width: 45px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+} 
+.amount {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px; 
+    color: #1D1F22;
+    
+}
+.amountBtn button {
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+    border-radius: 0%;
+    border: 1px solid #1D1F22;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
