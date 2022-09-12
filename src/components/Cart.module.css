@@ -152,3 +152,74 @@
     cursor: pointer;
 }
 
+.purchaseInfo {
+    width: 279px;
+    height: 159px;
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #1D1F22;
+    margin-top: 32px;
+}
+
+.block{
+    display: flex;
+    height: 100px;
+  
+    
+}
+.prop{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+.value{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    width: 94px;
+    margin: 0;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.purchaseInfo button{
+    background: #5ECE7B;
+    padding: 16px 32px;
+    width: 279px;
+    height: 43px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    margin-top: 16px;
+    cursor: pointer;
+    
+}
+
+.itemImg{
+    position: relative;
+   
+    
+}
+.sliders{
+    width: 56px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    cursor: pointer;
+  }

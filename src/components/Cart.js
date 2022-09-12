@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import classes from './Cart.module.css';
 import Item from '../assets/Product D.svg';
+import LeftSlider from '../assets/left slider.svg';
+import RightSlider from '../assets/right slider.svg';
 
 export default class Cart extends Component {
   render = () => (
@@ -44,7 +46,11 @@ export default class Cart extends Component {
                 </div>
               </div>
               <div className={classes.itemImg}>
-                <img src={Item} alt="" />
+                <img src={Item} alt="item" />
+                <div className={classes.sliders}>
+                  <img src={LeftSlider} alt="slider" />
+                  <img src={RightSlider} alt="slider" />
+                </div>
               </div>
             </div>
           </div>
@@ -84,26 +90,31 @@ export default class Cart extends Component {
                 </div>
               </div>
               <div className={classes.itemImg}>
-                <img src={Item} alt="" />
+                <img src={Item} alt="item" />
+                <div className={classes.sliders}>
+                  <img src={LeftSlider} alt="slider" />
+                  <img src={RightSlider} alt="slider" />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className={classes.line} />
-      <div>
-        <div>
-          <h1>Tax 21%</h1>
-          <h1>$42.00</h1>
+      <div className={classes.purchaseInfo}>
+        <div className={classes.block}>
+          <div className={classes.prop}>
+            <h1 className={classes.prop}>Tax 21%:</h1>
+            <h1 className={classes.prop}>Quantity:</h1>
+            <h1 className={classes.prop}>Total:</h1>
+          </div>
+          <div className={classes.value}>
+            <h1 className={classes.value}>$42.00</h1>
+            <h1 className={classes.value}>3</h1>
+            <h1 className={classes.value}>$200.00</h1>
+          </div>
         </div>
-        <div>
-          <h1>Quantity</h1>
-          <h1>3</h1>
-        </div>
-        <div>
-          <h1>Total</h1>
-          <h1>$200.00</h1>
-        </div>
+        <button>order</button>
       </div>
     </div>
   );
