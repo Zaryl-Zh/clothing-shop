@@ -4,6 +4,7 @@ import Header from './components/Header';
 import './App.css';
 import Item from './components/Item';
 import Cart from './components/Cart';
+import CartModal from './components/CartModal';
 
 export default class App extends Component {
   render = () => (
@@ -11,7 +12,8 @@ export default class App extends Component {
       <Header/>
       {/* <Categories/>
       <Item/> */}
-      <Cart/>
+      {/* <Cart/> */}
+      <CartModal/>
     </div>
   )
 }

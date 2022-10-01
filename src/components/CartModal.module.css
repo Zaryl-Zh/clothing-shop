@@ -1,0 +1,215 @@
+.cart {
+    /* margin: 0 auto; */
+    width: 325px;
+    height: 677px;
+    background-color: yellowgreen;
+    
+}
+.cartTitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D1F22;
+    margin-bottom: 55px;
+    
+}
+.cartTitle span {
+    font-weight: 500;
+}
+.cartInfo{
+    width: 293px;
+    height: 420px;
+    background-color: pink;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    height: 190px;
+    
+   
+}
+.side{
+    width: 136px;
+}
+.brandName{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 0;
+}
+
+
+.size{
+    width: 120px;
+    height: 48px;
+}
+.size h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D1F22;
+    margin: 0 0 8px 0;
+   
+}
+
+.size button{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1D1F22;
+    width: 24px;
+    height: 24px;
+    border-radius: 0;
+    border: 1px solid #1D1F22;
+    background: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.size button:not(:last-child){
+    margin-right: 8px;
+}
+
+
+.color{
+    margin-top: 8px;
+}
+.color h2{
+    color: #1D1F22;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 8px 0;
+
+}
+
+.color button{
+    width: 16px;
+    height: 16px;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+
+}
+
+.color button:not(:last-child){
+    margin-right: 8px;
+}
+
+
+.price h2 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.amountBtn {
+    width: 24px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 8px 0 4px;
+} 
+.amount {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #1D1F22;
+    
+}
+.amountBtn button {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    border-radius: 0%;
+    border: 1px solid #1D1F22;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.itemImg {
+   background-image: url('../assets/Product D.svg');
+   width: 121px;
+   height: 190px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.purchaseInfo {
+    width: 279px;
+    height: 159px;
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #1D1F22;
+    margin-top: 32px;
+}
+
+.block{
+    display: flex;
+    height: 100px;
+  
+    
+}
+.prop{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+.value{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    width: 94px;
+    margin: 0;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.purchaseInfo button{
+    background: #5ECE7B;
+    padding: 16px 32px;
+    width: 279px;
+    height: 43px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    margin-top: 16px;
+    cursor: pointer;
+    
+}
